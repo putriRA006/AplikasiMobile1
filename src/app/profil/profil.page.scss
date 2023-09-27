@@ -1,0 +1,22 @@
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 50vh;
+}
+p {
+  margin: 5px;
+}
+ion-avatar {
+  width: 100px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  height: 100px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+}
+
+ion-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Untuk memastikan gambar mengisi avatar dengan benar */
+}
