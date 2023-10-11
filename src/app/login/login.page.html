@@ -11,11 +11,13 @@
     </ion-toolbar>
   </ion-header>
   <div id="container">
-    <strong>App Mobile</strong>
-    <p>Klik <a [routerLink]="['/home']">Masuk</a> untuk Menuju Home</p>
-    <p>Klik <a [routerLink]="['/profil']">Masuk</a> untuk Menuju profil</p>
-  </div>
+    <h1><strong>Login</strong></h1>
+    Username : <input type="text" [(ngModel)]="username" /><br>
+    Password : <input type="password" [(ngModel)]="password" /><br>
+    <ion-button (click)="checkloginAuth()">Login</ion-button>
   
+  </div>
+
   
 </ion-content>
 

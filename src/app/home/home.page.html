@@ -12,9 +12,15 @@
       <ion-title size="large">Home</ion-title>
     </ion-toolbar>
   </ion-header>
-
+<div></div>
   <div id="container">
+    <div ng-if="userRole==='admin'">
+    <ion-img src="https://images.unsplash.com/photo-1503756234508-e32369269deb"></ion-img>
+    </div>
+    <div ng-if="userRole==='superadmin'">
     <ion-img src="https://docs-demo.ionic.io/assets/madison.jpg"></ion-img>
+    </div>
     <p>Ini adalah sebuah gedung gedung bernama madison building di wincousin </p>
+    Anda Adalah {{userRole}}
   </div>
 </ion-content>

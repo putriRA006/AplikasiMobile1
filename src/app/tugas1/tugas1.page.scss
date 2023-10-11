@@ -1,0 +1,49 @@
+
+.name{
+    text-align: center;
+    padding-top: 20px;
+}
+.gride{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    max-width: 1500px;
+    max-height: 60px;
+}
+.gride ion-avatar img {
+    max-width: 50px; 
+    max-height: 50px;
+    
+  }
+.button{
+    padding-top: 10px;
+    padding-left: 110px;
+    font-size: 10px;
+    min-width: 150px;
+    min-height: 30px;
+    
+}
+ion-fab-button::part(native) {
+   background-color: #1a4ffc;
+   border-radius: 1px;
+   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+   color: white;
+   width: 70px; /* Sesuaikan lebar sesuai yang Anda inginkan */
+    height: 35px; /* Sesuaikan tinggi sesuai yang Anda inginkan */
+    font-size: 12px; /* Sesuaikan ukuran font sesuai yang Anda inginkan */
+    top: 5px;
+    right: 20px;
+}
+
+.icon{
+  font-size: 25px;
+  
+}
+.text{
+ 
+    text-align: center; /* Pusatkan teks horizontal. */
+    width: 100%; /* Pastikan lebar elemen penuh. */
+
+}
